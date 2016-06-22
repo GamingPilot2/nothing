@@ -1,5 +1,8 @@
 <?php
 
-class Factions;
- 
-Public function dormir();
+class Factions
+{
+ public claim;
+ public unclaim;
+ private setpower;
+
