@@ -1,0 +1,17 @@
+name: LifeCubeFactions
+version: 1.0.0
+author: GamingPilot2
+api:
+- 1.0.0
+main: LifeCubeFactions\Main
+commands:
+  f:
+    description: Voir toutes les commandes.
+    usage: "/f help"
+    permission: f.cmd.all
+    aliases: [faction]
+permissions:
+  f:
+    default: true
+
+#Commandes à venir !
